@@ -1,0 +1,20 @@
+#include <stdio.h>
+
+int main() {
+    int i, j, rows = 5;
+    
+    for (i = 0; i < rows; i++) {
+        // Inner loop to print leading spaces
+        for (j = 0; j < i; j++) {
+            printf(" ");
+        }
+        
+        // Inner loop to print asterisks
+        for (j = 0; j < rows - i; j++) {
+            printf("*");
+        }
+        printf("\n");
+    }
+    
+    return 0;
+}
