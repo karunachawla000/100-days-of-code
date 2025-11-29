@@ -1,23 +1,3 @@
-// Q98: Print initials of a name with the surname displayed in full.
-
-// /*
-// Sample Test Cases:
-// Input 1:
-// John David Doe
-// Output 1:
-// J.D. Doe
-
-// */
-
-// Q98: Print initials of a name with the surname displayed in full.
-/*
-Sample Test Case:
-Input:
-John David Doe
-Output:
-J.D. Doe
-*/
-
 #include <stdio.h>
 #include <string.h>
 
